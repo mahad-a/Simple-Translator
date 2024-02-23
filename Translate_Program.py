@@ -22,11 +22,11 @@ class TranslatorApp(tk.Tk):
         self.title("Simpler Translator Program")
         self.geometry("800x600")
 
-        font = ('Helvetica', 24, 'bold')
+        font = ('Arial', 24, 'bold')
         label = tk.Label(self, text="Welcome to my Simple Translator!", font=font)
         label.pack()
 
-        font = ('Helvetica', 14)
+        font = ('Arial', 14)
         label = tk.Label(self, text="Currently we offer the ability to translate from English to one of 5 languages: French, Spanish, German, Japanese and Simplified Chinese. The top text bar will be where you input your desired statement. To maintain the most accurate translation, opt to translate sentences at a time rather than great big paragraphs. The translator is not perfect, so please do not take it as fact.", font=font, wraplength=800)
         label.pack()
 
